@@ -1,0 +1,584 @@
+.container {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 100px 50px;
+  display: grid;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+/*sidar bar start*/
+.sidebar {
+  grid-column: 1/3;
+  grid-row: 1/-1;
+  width: 400px;
+  /*
+  border: 1px solid red;
+  */
+  background-color: #caf0f8;
+  position: fixed;
+}
+
+.img1 {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-top: 65px;
+  margin-left: 100px;
+}
+.para {
+  margin-left: 100px;
+  margin-top: -1px;
+  color: #00bfff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.icons {
+  margin-left: 90px;
+  margin-top: -20px;
+}
+.u1 {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.icon i {
+  color: black;
+}
+
+li,
+a {
+  text-decoration: none;
+
+  display: block;
+  margin-left: -22px;
+  padding: 5px 8px;
+  color: black;
+}
+.u1,
+li,
+i,
+a:hover {
+  color: #00bfff;
+}
+
+/*sidebar end*/
+/*Main start*/
+.main {
+  grid-column: 3/-1;
+  grid-row: 1/-1;
+}
+.img2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 180px;
+  margin-left: 550px;
+  border: 2px solid #00bfff;
+}
+.para2 {
+  margin-top: -180px;
+  font-size: 35px;
+  margin-left: 150px;
+  color: #00bfff;
+}
+/*
+.p1 {
+  margin-left: 250px;
+  margin-top: -25px;
+  font-size: 18px;
+}
+*/
+.h5 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 180px;
+  margin-top: -20px;
+}
+/*Home Start*/
+
+.about {
+  margin-top: 600px;
+  font-size: 30px;
+  color: #00bfff;
+}
+.l1 {
+  position: relative;
+  border: none;
+  height: 4px;
+  width: 69px;
+  margin-left: 30px;
+  background: #00bfff;
+  margin-top: -32px;
+}
+.l2 {
+  height: 3px;
+  width: 30px;
+  margin-left: 50px;
+  background-color: #00bfff;
+  border: none;
+  margin-top: -5px;
+}
+.intro {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+span {
+  color: #00bfff;
+}
+.b1 {
+  margin-top: -30px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+/*About End*/
+/*skill start*/
+
+.skill1 {
+  margin-top: 60px;
+
+  height: 400px;
+  width: 970px;
+  margin-left: -70px;
+  background-color: #e1f5fe;
+}
+.skill {
+  font-size: 30px;
+  color: #00bfff;
+  margin-top: -390px;
+}
+.para3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.para4 {
+  margin-top: -40px;
+  margin-left: 360px;
+}
+.h1 {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 400px;
+  margin-left: -1px;
+  background: #00bfff;
+  margin-top: 10px;
+}
+.c1 {
+  margin-top: -50px;
+  margin-left: 500px;
+  font-size: 18px;
+}
+
+.c2 {
+  margin-top: -42px;
+  margin-left: 800px;
+}
+.h3 {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 360px;
+  margin-left: 500px;
+
+  background: linear-gradient(80deg, #00bfff 95%, white 30%);
+
+  margin-top: 10px;
+}
+.j1 {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 400px;
+  margin-left: -1px;
+  background: linear-gradient(80deg, #00bfff 70%, white 40%);
+  margin-top: 10px;
+}
+.C {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 360px;
+  margin-left: 500px;
+
+  background: linear-gradient(80deg, #00bfff 95%, white 30%);
+
+  margin-top: 10px;
+}
+.J1 {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 400px;
+  margin-left: -1px;
+  background: linear-gradient(80deg, #00bfff 65%, white 40%);
+  margin-top: 10px;
+}
+.S {
+  position: relative;
+  border: none;
+  height: 10px;
+  width: 360px;
+  margin-left: 500px;
+
+  background: linear-gradient(80deg, #00bfff 55%, white 30%);
+
+  margin-top: 10px;
+}
+
+/*skill end*/
+/*resume start*/
+.resume {
+  font-size: 30px;
+  color: #00bfff;
+  margin-top: 70px;
+}
+.r1 {
+  position: relative;
+  border: none;
+  height: 4px;
+  width: 90px;
+  margin-left: 30px;
+  background: #00bfff;
+  margin-top: -32px;
+}
+.r2 {
+  height: 3px;
+  width: 35px;
+  margin-left: 50px;
+  background-color: #00bfff;
+  border: none;
+  margin-top: -0.7rem;
+}
+.s1 {
+  color: black;
+}
+.line {
+  border: 1px solid #00bfff;
+  height: 209px;
+  margin-top: 125rem;
+  position: absolute;
+  left: 32%;
+  margin-left: 29px;
+  top: 10px;
+}
+.circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #00bfff;
+  position: absolute;
+  border-radius: 50%;
+  top: -17px;
+  left: -7px;
+}
+/*education*/
+.line1 {
+  border: 1px solid #00bfff;
+  height: 286px;
+  margin-top: 146rem;
+  position: absolute;
+  left: 32%;
+  margin-left: 29px;
+  top: 10px;
+}
+.circle1 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #00bfff;
+  position: absolute;
+  border-radius: 50%;
+  top: -17px;
+  left: -7px;
+}
+
+.s2 {
+  margin-top: 300px;
+}
+.se {
+  font-size: 18px;
+  color: black;
+  margin-left: 35px;
+  margin-top: -10px;
+  height: 20px;
+  padding: 10px;
+  width: 80px;
+  text-align: justify;
+
+  background-color: #caf0f8;
+}
+.sn {
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: -17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  height: 30px;
+  width: 200px;
+  background-color: #caf0f8;
+  padding: 10px;
+}
+
+/*Higher start*/
+.line2 {
+  border: 1px solid #00bfff;
+  height: 250px;
+  margin-top: 165rem;
+  position: absolute;
+  left: 32%;
+  margin-left: 29px;
+  top: 10px;
+}
+.circle2 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #00bfff;
+  position: absolute;
+  border-radius: 50%;
+  top: -17px;
+  left: -7px;
+}
+/*Higher End*/
+/*Grratuation Start*/
+
+.line3 {
+  border: 1px solid #00bfff;
+  height: 478px;
+  margin-top: 124rem;
+  position: absolute;
+
+  margin-left: 460px;
+  top: 55px;
+}
+.circle3 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #00bfff;
+  position: absolute;
+  border-radius: 50%;
+  top: -18px;
+  margin-left: -9px;
+}
+/*Gratuation End*/
+/*Master Start*/
+.line4 {
+  border: 1px solid #00bfff;
+  height: 370px;
+
+  position: absolute;
+  margin-top: 155rem;
+  margin-left: 460px;
+  top: 55px;
+}
+.circle4 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #00bfff;
+  position: absolute;
+  border-radius: 50%;
+  top: -18px;
+  margin-left: -9px;
+}
+/* Master End */
+
+/*resume end*/
+/*portfolio start*/
+
+.portfolio {
+  margin-top: 600px;
+  height: 650px;
+  width: 950px;
+  margin-left: -64px;
+  background-color: #e1f5fe;
+}
+.port {
+  font-size: 30px;
+  color: #00bfff;
+  margin-top: -390px;
+  margin-left: 52px;
+}
+.p1 {
+  position: relative;
+  border: none;
+  height: 4px;
+  width: 107px;
+  margin-left: 80px;
+  background: #00bfff;
+  margin-top: -32px;
+}
+.p2 {
+  height: 3px;
+  width: 40px;
+  margin-left: 120px;
+  background-color: #00bfff;
+  border: none;
+  margin-top: -5px;
+}
+.value ul {
+  display: flex;
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  margin-left: 410px;
+  border-radius: 5%;
+}
+/*
+.u12,
+li,
+a {
+  font-size: 23px;
+  padding: 10px 20px;
+}
+*/
+/*Card Start*/
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 60px 35px;
+  margin-left: 300px;
+}
+
+.box-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.t1 {
+  height: 180px;
+  width: 250px;
+  margin-left: -240px;
+  margin-top: 50px;
+}
+.box-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.t2 {
+  height: 180px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.box-3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.t3 {
+  height: 180px;
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.box-4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.t4 {
+  height: 180px;
+  width: 250px;
+  margin-left: -240px;
+}
+.box-5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.t5 {
+  height: 180px;
+  width: 250px;
+  margin-left: 20px;
+}
+.box-6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.t6 {
+  height: 180px;
+  width: 250p;
+  margin-left: 20px;
+}
+.sp1 {
+  height: 30px;
+  width: 80px;
+  background-color: blue;
+  margin-top: -400px;
+}
+/*card End*/
+/*portfolio end*/
+/*Contact detail start*/
+.contact {
+  margin-top: 450px;
+  height: 650px;
+  width: 950px;
+  margin-left: -64px;
+  /*background-color: #e1f5fe;*/
+}
+.port {
+  font-size: 30px;
+  color: #00bfff;
+  margin-top: -390px;
+  margin-left: 52px;
+}
+.p1 {
+  position: relative;
+  border: none;
+  height: 4px;
+  width: 107px;
+  margin-left: 80px;
+  background: #00bfff;
+  margin-top: -32px;
+}
+.p2 {
+  height: 3px;
+  width: 40px;
+  margin-left: 120px;
+  background-color: #00bfff;
+  border: none;
+  margin-top: -5px;
+}
+
+/* map detail start*/
+.map_detail {
+  height: 600px;
+  width: 400px;
+  background-color: whitesmoke;
+  border: none;
+}
+.loca {
+  margin-left: 80px;
+  font-size: 25px;
+  margin-top: -40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.email1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.call1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.detail {
+  height: 600px;
+  width: 520px;
+  background-color: whitesmoke;
+  margin-left: 430px;
+  margin-top: -600px;
+}
+input [type="text"]:focus {
+  border: #00bfff;
+}
+/**/
+/*map detail end*/
+/*contact detail end*/
+/*Main End*/
